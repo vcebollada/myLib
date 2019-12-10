@@ -9,7 +9,7 @@ namespace MyLib
 
 void PrintInfo()
 {
-	std::cout << "   MyLib v1.0" << std::endl;
+	std::cout << "   MyLib v2.0" << std::endl
 	std::cout << "   Compiled with libpng " << PNG_LIBPNG_VER_STRING << "; using libpng " << png_libpng_ver << "." << std::endl;
 	std::cout << "   Compiled with zlib " << ZLIB_VERSION << "; using zlib " << zlib_version << " ." << std::endl;
 }
